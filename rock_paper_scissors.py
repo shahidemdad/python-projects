@@ -20,4 +20,3 @@ def win(player, computer):
     if (player == 'r' and computer == 's') or (player == 's' and computer == 'p') or (player == 'p' and computer == 'r'):
         return True
 print(rpsGame())
-
